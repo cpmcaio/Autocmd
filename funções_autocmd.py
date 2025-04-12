@@ -39,6 +39,3 @@ def renomear(dir_antigo,dir_novo):
         return f"Erro: '{dir_novo}' já existe!"
     except Exception as e:
         return f"Erro inesperado: {str(e)}"
-
-def tree(dir):
-    dir=input('digite o nome do diretório')
